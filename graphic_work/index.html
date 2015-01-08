@@ -5,7 +5,8 @@ layout: default
 <div class="project-grid">
   {% for project in site.projects %}
     <div class="project">
-      <a class="project-link" href="/graphic_work/#/{{ project.title | slugify }}" style="background-image: url(/images/projects/{{ project.image-name }});">{{ project.title }}</a>
+      <a class="project-link" href="/graphic_work/#/{{ project.title | slugify }}" style="background-image: url(/images/projects/{{ project.image-name }});"></a>
+      {{ project.title }}
     </div>
   {% endfor %}
 </div>
