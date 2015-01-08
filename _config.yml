@@ -1,14 +1,51 @@
 # Site settings
-title: Let's see if this works
-email: your-email@domain.com
+title: Katharine Banks
+email: katharinecbanks@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Welcome!
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+github-username:  kcbanks91
 
 # Build settings
 markdown: kramdown
+
+navigation:
+  - title: About
+    url: /
+  - title: Resume
+    url: /resume
+  - title: Graphic Work
+    url: /graphic-work
+  - title: UX Work
+    url: /ux-work
+
+projects:
+  - title: New Years Card
+    image-name: new-years-card.png
+  - title: Birthday Card
+    image-name: birthday-card.png
+  - title: Capacity Building Fund
+    image-name: capacity-building-fund.jpg
+  - title: DonorPath Blog Post Heading
+    image-name: donorpath-blog-heading-1.png
+  - title: DonorPath Infographic
+    image-name: donorpath-infographic.jpg
+  - title: Time Out For Trivia
+    image-name: time-out-for-trivia.png
+  - title: DonorPath Blog Post Heading 2
+    image-name: donorpath-blog-heading-2.jpg
+  - title: Digital Service Corps
+    image-name: digital-service-corps.png
+  - title: "#RetentionWednesday Male"
+    image-name: retention-man.jpg
+  - title: "#RetentionWednesday Ad Woman"
+    image-name: retention-woman.jpg
+  - title: Dapp's Ad 1
+    image-name: dapps-ad-1.jpg
+  - title: Dapp's Ad 2
+    image-name: dapps-ad-2.jpg
+  - title: Hoosier Country
+    image-name: hoosier-country-1.jpg
+  - title: Hoosier Country 2
+    image-name: hoosier-country-2.jpg

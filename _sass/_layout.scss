@@ -23,12 +23,20 @@
     }
 }
 
+header .wrapper {
+    text-align: -webkit-center;
+}
+
 .site-nav {
-    float: right;
+    width: 50%;
     line-height: 56px;
 
-    .menu-icon {
-        display: none;
+    #logo-link {
+        background-image: url(/images/logo.png);
+        display: block;
+        height: 200px;
+        width: 364px;
+        background-size: 364px 200px;
     }
 
     .page-link {
@@ -165,8 +173,27 @@
     padding: $spacing-unit 0;
 }
 
-.page-heading {
-    font-size: 20px;
+.greeting {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.download {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.project {
+    width: 31%;
+    height: 251px;
+    display: inline-block;
+}
+
+.project-link {
+    display: block;
+    background-size: 100%;
 }
 
 .post-list {
