@@ -941,3 +941,17 @@ div.sb-message a:link,div.sb-message a:visited {
 	}
 
 } /* End 340px */
+
+
+/* extra custom styles */
+
+.twentytwenty-container {
+  margin-bottom: 20px;
+  margin-right: 23%;
+  margin-left: 23%;
+}
+
+#footer-wrapper {
+  margin-right: 25%;
+  margin-left: 25%;
+}
