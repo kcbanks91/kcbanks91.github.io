@@ -1,11 +1,4 @@
 $(document).ready(function() {
-	/* Shadowbox jQuery Plugin */
-	Shadowbox.init({
-		handleOversize: "resize",
-		modal: false,
-		overlayOpacity: 0.7,
-	});
-
 
 	/* SCROLL ANIMATION */
 	$('a[href*=#]:not([href=#])').click(function() {
