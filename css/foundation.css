@@ -9,17 +9,6 @@ html,
 body {
   font-size: 100%; }
 
-body {
-  background: white;
-  color: #222222;
-  padding: 0;
-  margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  line-height: 1;
-  position: relative;
-  cursor: default; }
 
 a:hover {
   cursor: pointer; }
@@ -27,18 +16,10 @@ a:hover {
 a:focus {
   outline: none; }
 
-img,
-object,
-embed {
-  max-width: 100%;
-  height: auto; }
 
 object,
 embed {
   height: 100%; }
-
-img {
-  -ms-interpolation-mode: bicubic; }
 
 #map_canvas img,
 #map_canvas embed,
