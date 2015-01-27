@@ -42,9 +42,8 @@ body:after {
 
 .lb-outerContainer {
   position: relative;
-  background-color: white;
+  background-color: black;
   *zoom: 1;
-    opacity: .90;
   width: 250px;
   height: 250px;
   margin: 0 auto;
