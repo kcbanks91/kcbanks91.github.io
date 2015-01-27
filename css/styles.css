@@ -359,6 +359,8 @@ nav.opacity {
 	}
 	#wgn-dapps-one {
 		background-image: url(../images/dappswgn1.png);
+        width: 300px;
+        height: 250px;
 	}
 	#wgn-dapps-two {
 		background-image: url(../images/dappswgn2.jpg);
