@@ -21,7 +21,7 @@
         <script src="js/jquery-1.11.0.min.js"></script>
         <script src="js/lightbox.min.js"></script>
         <script src="js/custom-scripts.js"></script>
-        <script src="js/retina.min.js"></script>
+
         
     	<title>Katharine Banks: UX &amp; Graphic Designer</title>
     </head>
@@ -323,5 +323,14 @@
                 <p>&copy; Copyright 2015 Katharine Banks</p>
             <!--center-->
         </footer>
+              <script type="text/javascript" src="js/retina.min.js"></script>
+        <script>
+          if (devicePixelRatio > 1) {
+            $('.full-tile-link').each(function(index, a) {
+              RetinaImagePath(a.href);
+              a.href = window.at_2x_path;
+            });
+          }
+        </script>
             </body>
         </html>
