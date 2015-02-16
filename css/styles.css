@@ -958,3 +958,33 @@ div.sb-message a:link,div.sb-message a:visited {
   margin-right: 25%;
   margin-left: 25%;
 }
+
+/* WEATHER SECTION */
+.weather-section {
+	padding-top: 50px;
+	padding-bottom: 30px;
+	position: relative;
+    background-color: #8abdee;
+}
+    .weather-section h3 {
+		color: #275481;
+	}
+	.weather-section p a {
+		font-weight: 700;
+		color: #db6b6a;
+	}
+	.weather-section p a:visited {
+		color: #2f669c;
+	}
+	.weather-section p a:hover {
+		color: #2f669c;
+	}
+	.weather-section p a:active {
+		color: #2f669c;
+	}
+	.weather-section a.button-style:active, .about-section a.button-style:hover {
+	background-color: #2f669c;
+	}
+	.weather-section a.button-style {
+		background: #2f669c;
+	}

@@ -25,6 +25,7 @@
         <script src="js/jquery.event.move.js"></script>
         <script src="js/jquery.twentytwenty.js"></script>
         <script src="js/ideal-image-slider.js"></script>
+        <script type="text/javascript" src="js/jquery.media.js"></script> 
         
     	<title>Katharine Banks: UX &amp; Graphic Designer</title>
     </head>
@@ -53,7 +54,7 @@
                 <h3 align="center">Portfolio</h3>
                 <h2 align="center">Weather Or Not Application</h2>
     
-                 <h4 align="center">Use image slider to view annotated wireframes, and see pull project deck below</h4><br>
+                 <h4 align="center">Use image slider to view annotated wireframes, and see full project deck below</h4><br><br>
                 
                 <div id="slider">
         <img src="images/wireframe.jpg" alt="">
@@ -65,13 +66,17 @@
         <img data-src="images/wireframe6.jpg" src="" alt="">
         <img data-src="images/wireframe7.jpg" src="" alt="">
     </div>
-                
                 <script>
     new IdealImageSlider.Slider('#slider');
     </script>
-                
-                <br><br>
-                
+                <br> <center><a class="media" href="WeatherOrNot.pdf" background-color="#000000"></a></center>
+                <script>
+                $('a.media').media({width:700, height:487});
+                    </script>
+                <br><br
+        
+        </section> <!--end of weather section--> 
+                <section id="weather-section" class="weather-section wrapper">
                 <h2 align="center">DonorPath Registration Redesign</h2>
     
                  <h4 align="center">Use the sliders on the images below to see portions of the redesign</h4><br><center>Actual pages can be found via the DonorPath website</center>
@@ -116,7 +121,7 @@
   });
 </script>       
                 
-        </section> <!--portfolio of graduate work-->    
+        </section> <!--end of donorpath redesign section-->    
     
 <div id="footer-wrapper">
         <footer><br>
