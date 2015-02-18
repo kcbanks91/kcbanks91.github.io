@@ -72,6 +72,16 @@ h2 {
 	margin-bottom: 24px;
 	font-weight: 600;
 }
+
+h2.DP {
+	font-size: 38px;
+	line-height: 40px;
+	margin-bottom: 24px;
+	font-weight: 600;
+    color: #fff;
+}
+
+
 h3 {
 	color: #275481;
 	text-transform: uppercase;
