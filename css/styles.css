@@ -553,6 +553,17 @@ footer a {
 	position: relative;
 	height: 100%;
 }
+
+.wrapper2 {
+	margin: 0 auto;
+	min-width: 320px;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: relative;
+	height: 100%;
+    width: 100%;
+}
+
 .uppercase {
 	font-weight: 700;
 	font-size: 13px;
