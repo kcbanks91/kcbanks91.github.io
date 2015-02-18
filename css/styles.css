@@ -965,6 +965,7 @@ div.sb-message a:link,div.sb-message a:visited {
 	padding-bottom: 30px;
 	position: relative;
     background-color: #77abdf;
+    opacity: .90;
 }
     .weather-section h3 {
 		color: #275481;
