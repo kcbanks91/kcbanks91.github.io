@@ -959,7 +959,7 @@ div.sb-message a:link,div.sb-message a:visited {
   margin-left: 25%;
 }
 
-/* WEATHER SECTION */
+/* DONORPATH REDESIGN SECTION */
 .weather-section {
 	padding-top: 50px;
 	padding-bottom: 30px;
@@ -981,10 +981,4 @@ div.sb-message a:link,div.sb-message a:visited {
 	}
 	.weather-section p a:active {
 		color: #2f669c;
-	}
-	.weather-section a.button-style:active, .about-section a.button-style:hover {
-	background-color: #2f669c;
-	}
-	.weather-section a.button-style {
-		background: #2f669c;
 	}
