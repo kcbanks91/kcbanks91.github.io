@@ -47,10 +47,11 @@ $(document).ready(function() {
 	});
 
     // ACTIVE LINK
-    
-    $('.top-navigation li a').on('click', function() {
+
+  $('.top-navigation li a').click(function(e) {
+    e.preventDefault();
     $(this).parent().parent().find('.active').removeClass('active');
     $(this).addClass('active');
-});
-    
+  });
+
 });//end document ready

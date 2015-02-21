@@ -170,6 +170,9 @@ nav.opacity {
 	.top-navigation a:active {
 		color: #275481;
 	}
+	.top-navigation a.active {
+		color: #275481;
+	}
 
 /* HERO SECTION */
 .main-img-section {
