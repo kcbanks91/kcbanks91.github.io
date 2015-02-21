@@ -52,6 +52,7 @@ $(document).ready(function() {
     e.preventDefault();
     $(this).parent().parent().find('.active').removeClass('active');
     $(this).addClass('active');
+    window.location.pathname = $(this).attr('href');
   });
 
 });//end document ready
