@@ -832,7 +832,7 @@ div.sb-message a:link,div.sb-message a:visited {
 	.top-navigation a:hover {
 		background-color: #275481;
 	}
-	.top-navigation a:active {
+	.top-navigation a.active {
 		color: #275481;
 	}
 

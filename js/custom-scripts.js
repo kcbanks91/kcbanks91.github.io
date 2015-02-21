@@ -46,4 +46,11 @@ $(document).ready(function() {
 		$('.top-navigation').toggleClass ('top-mobile');
 	});
 
+    // ACTIVE LINK
+    
+    $('.top-navigation li a').on('click', function() {
+    $(this).parent().parent().find('.active').removeClass('active');
+    $(this).addClass('active');
+});
+    
 });//end document ready
