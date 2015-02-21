@@ -166,9 +166,10 @@ nav.opacity {
 	}
 	.top-navigation a:hover {
 		background-color: #275481;
+        color: #ffffff;
 	}
 	.top-navigation a:active {
-		color: #275481;
+		color: #ffffff;
 	}
 	.top-navigation a.active {
 		color: #275481;
