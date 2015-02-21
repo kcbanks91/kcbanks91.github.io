@@ -834,9 +834,10 @@ div.sb-message a:link,div.sb-message a:visited {
 	}
 	.top-navigation a:hover {
 		background-color: #275481;
+        color: #ffffff;
 	}
 	.top-navigation a.active {
-		color: #275481;
+		color: #ffffff;
 	}
 
 } /* End 648px */
