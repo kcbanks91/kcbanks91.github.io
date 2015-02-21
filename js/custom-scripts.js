@@ -46,13 +46,12 @@ $(document).ready(function() {
 		$('.top-navigation').toggleClass ('top-mobile');
 	});
 
-    // ACTIVE LINK
-
-  $('.top-navigation li a').click(function(e) {
-    e.preventDefault();
-    $(this).parent().parent().find('.active').removeClass('active');
-    $(this).addClass('active');
-    window.location.pathname = $(this).attr('href');
-  });
+  // maaaaybe later...
+  //$('.top-navigation li a').click(function(e) {
+  //  e.preventDefault();
+  //  $(this).parent().parent().find('.active').removeClass('active');
+  //  $(this).addClass('active');
+  //  window.location.pathname = $(this).attr('href');
+  //});
 
 });//end document ready
