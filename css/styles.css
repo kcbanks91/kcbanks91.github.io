@@ -85,7 +85,7 @@ h2.DP {
 h3 {
 	color: #275481;
 	text-transform: uppercase;
-	font-size: 13px;
+	font-size: 14px;
 	line-height: 24px;
 	font-weight: 700;
 }
@@ -1014,31 +1014,32 @@ div.sb-message a:link,div.sb-message a:visited {
 
 .btn {
   background: #77abdf;
-  background-image: -webkit-linear-gradient(top, #77abdf, #2980b9);
-  background-image: -moz-linear-gradient(top, #77abdf, #2980b9);
-  background-image: -ms-linear-gradient(top, #77abdf, #2980b9);
-  background-image: -o-linear-gradient(top, #77abdf, #2980b9);
-  background-image: linear-gradient(to bottom, #77abdf, #2980b9);
+  background-image: -webkit-linear-gradient(top, #77abdf, #275481);
+  background-image: -moz-linear-gradient(top, #77abdf, #275481);
+  background-image: -ms-linear-gradient(top, #77abdf, #275481);
+  background-image: -o-linear-gradient(top, #77abdf, #275481);
+  background-image: linear-gradient(to bottom, #77abdf, #275481);
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
   -webkit-box-shadow: 0px 1px 3px #666666;
   -moz-box-shadow: 0px 1px 3px #666666;
   box-shadow: 0px 1px 3px #666666;
-  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 13px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 
 .btn:hover {
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  background: #275481;
+  background-image: -webkit-linear-gradient(top, #275481, #77abdf);
+  background-image: -moz-linear-gradient(top, #275481, #77abdf);
+  background-image: -ms-linear-gradient(top, #275481, #77abdf);
+  background-image: -o-linear-gradient(top, #275481, #77abdf);
+  background-image: linear-gradient(to bottom, #275481, #77abdf);
   text-decoration: none;
 }
 
