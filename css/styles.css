@@ -1031,6 +1031,7 @@ div.sb-message a:link,div.sb-message a:visited {
   font-size: 13px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  margin-right: 10px;
 }
 
 .btn:hover {
