@@ -199,10 +199,6 @@ nav.opacity {
 	left: 0;
 }
 
-a {
-    color: #275481;
-}
-
 /* HEADER OF PAGES */
 .top-pages {
 	padding: 100px 0;
@@ -1045,6 +1041,10 @@ div.sb-message a:link,div.sb-message a:visited {
   background-image: -o-linear-gradient(top, #275481, #77abdf);
   background-image: linear-gradient(to bottom, #275481, #77abdf);
   text-decoration: none;
+}
+
+.dp {
+    color: #275481;
 }
 
 
