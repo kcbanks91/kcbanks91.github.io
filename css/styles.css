@@ -436,6 +436,49 @@ nav.opacity {
 	.about-section a.button-style {
 		background: #2f669c;
 	}
+
+/* ABOUT SECTION */
+.about-section-2 {
+    background-color: #a0c4e8;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	position: relative;
+}
+    .about-section-2 h3 {
+		color: #275481;
+	}
+	.about-section-2 p a {
+		font-weight: 700;
+		color: #db6b6a;
+	}
+	.about-section-2 p a:visited {
+		color: #2f669c;
+	}
+	.about-section-2 p a:hover {
+		color: #2f669c;
+	}
+	.about-section-2 p a:active {
+		color: #2f669c;
+	}
+	.about-section-2 .column-large-2 {
+		float: right;
+		padding-right: 10px;
+        background-color: #a0c4e8;
+	}
+	.about-section-2 .column-small-2 {
+		float: right;
+		padding-left: 7.3%;
+        background-color: #a0c4e8;
+	}
+	.about-section-2 .column-small p {
+		font-size: 14px;
+	}
+	.about-section-2 a.button-style:active, .about-section a.button-style:hover {
+	background-color: #2f669c;
+	}
+	.about-section-2 a.button-style {
+		background: #2f669c;
+	}
 .kbanks-img {
 	width: 70%;
 	height: 70%;
