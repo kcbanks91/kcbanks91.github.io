@@ -1037,6 +1037,7 @@ div.sb-message a:link,div.sb-message a:visited {
   margin-left: 25%;
 }
 
+
 /* DONORPATH REDESIGN SECTION */
 .weather-section {
 	padding-top: 50px;
@@ -1060,6 +1061,14 @@ div.sb-message a:link,div.sb-message a:visited {
 	.weather-section p a:active {
 		color: #2f669c;
 	}
+.weather-section p {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.weather-section h3 {
+    margin-left: 50px;
+}
+
 
 
 /* RESUME DOWNLOAD BUTTON */
