@@ -506,10 +506,16 @@ nav.opacity {
 
 /* CONTACT SECTION */
 .contact-section {
-	background-color: #82da80;
+	background-color: white;
+    background-image: url('../images/background.png');
 	padding-top: 50px;
 	padding-bottom: 30px;
 }
+
+	.contact-img {
+		margin-left: 20%;
+	}
+
 	.contact-section .column-small {
 		float: left;
 	}
@@ -527,10 +533,10 @@ nav.opacity {
 		transition: opacity .2s ease-in-out;
 	}
 	.contact-section h3 {
-		color: #295428;
+		color: #275481;
 	}
 	.contact-section h2 {
-		color: #ffffff;
+		color: #5f93c9;
 	}
 	.contact-section p {
 		color: #ffffff;
@@ -547,10 +553,10 @@ nav.opacity {
 	transition: opacity .2s ease-in-out;
 }
 	.contact-icon:link .contact-label, .contact-icon:visited .contact-label {
-		color: #295428;
+		color: #275481;
 	}
 	.contact-icon:hover .contact-label, .contact-icon:active .contact-label  {
-		color: #ffffff;
+		color: #bababa;
 	}
 .social-icon {
 	font-family: 'EntypoSocialRegular', sans-serif;
@@ -575,7 +581,7 @@ nav.opacity {
 	transition: all 0.3s ease-in-out 0s;
 }	
 	.contact-icon:link .email, .contact-icon:link .twitter, .contact-icon:link .linkedin, .contact-icon:visited .email, .contact-icon:visited .twitter, .contact-icon:visited .linkedin {
-		background-color: #82da80;
+		background-color: #bababa;
 		-webkit-transition: opacity .3s ease-in-out;
 		-moz-transition: opacity .3s ease-in-out;
 		transition: opacity .3s ease-in-out;
