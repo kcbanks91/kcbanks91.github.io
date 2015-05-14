@@ -166,24 +166,24 @@ nav.opacity {
     float: left;
 }
     #jcl-demo a.prev {
-        margin: 75px 5px 0 0; text-indent: 8px;
+        margin-top: 9.5%; 
+        margin-right: .6%;
+        text-indent: 8px;
     }
     #jcl-demo a.next {
-        margin: 75px 0 0 5px; text-indent: 10px;
+        margin-top: 9.5%; 
+        margin-left: 2%;
+        text-indent: 10px;
     }
         #jcl-demo a.prev:hover, #jcl-demo a.next:hover {
             background-color: #666666;
         }
     
     .photo {
-        margin-right: 10px;
-        padding: 3px;
-        
+        margin-right: 5px;
+        margin-left: 5px;
+        border:5px solid #ffffff;
     }
-
-.sliderbg {
-    background-image: url("images/background.png");
-}
 
 
 	/* LOGO */
@@ -216,20 +216,20 @@ nav.opacity {
 		-webkit-transition: all 0.3s ease-in-out 0s;
 		-moz-transition: all 0.3s ease-in-out 0s;
 		transition: all 0.3s ease-in-out 0s;
+        width: 126px;
 	}
 	.top-navigation a {
-		display: block;
-		width: 126px;
+		display: inline-block;
 		padding: 6px 0;
 		color: #ffffff;
-		border-radius: 15px;
+        border-bottom: 2px solid transparent;
 	}
 	.top-navigation a:visited {
 		color: #ffffff;
 	}
 	.top-navigation li a:hover {
     color: #ffffff;
-		background-color: #275481;
+    border-bottom-color: #275481;
 	}
 	.top-navigation a:active {
 		color: #ffffff;
@@ -965,8 +965,9 @@ div.sb-message a:link,div.sb-message a:visited {
 		width: 100px;
 	}
 	.top-navigation a:hover {
-		background-color: #275481;
         color: #ffffff;
+        text-decoration: overline underline;
+        text-decoration-color: #275481;
 	}
 	.top-navigation a.active {
 		color: #ffffff;
