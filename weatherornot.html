@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Katharine Banks' Portfolio - Home</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="keywords" content="Katharine Banks graphic design print web advertising html css photoshop indesign illustrator Chicago UX user experience DePaul"/>
+		<meta name="description" content="Katharine Banks' web and graphic design portfolio"/>
+		<meta name="author" content="Website and content created by Katharine Banks"/>
+		<meta name="copyright" content="2015 Katharine Banks"/>
+<link href='css/stylesheet.css' rel='stylesheet' type='text/css' media='screen and (min-device-width : 1025px)'/>
+<link type="text/css" rel="stylesheet" media="only screen and (max-device-width: 480px)" href="http://meganmulholland.com/myMobileStyle.css" />
+<link type="text/css" rel="stylesheet" media="only screen and (min-device-width: 768px) and (max-device-width: 1024px)" href="http://meganmulholland.com/myMobileStyle.css" />
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,900' rel='stylesheet' type='text/css'>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+
+	<script src="js/lightbox.js"></script>
+    <link href="css/lightbox2.css" rel="stylesheet" />
+    
+<script> 
+//YOU NEED TO MAKE THIS FILE lowercase 'i'!!
+$( function() {
+  // init Isotope
+  var $container = $('.isotope').isotope({
+    itemSelector: '.icons'
+  });
+
+  // store filter for each group
+  var filters = {};
+
+  $('#filters').on( 'click', '.button', function() {
+    var $this = $(this);
+    // get group key
+    var $buttonGroup = $this.parents('.button-group');
+    var filterGroup = $buttonGroup.attr('data-filter-group');
+    // set filter for group
+    filters[ filterGroup ] = $this.attr('data-filter');
+    // combine filters
+    var filterValue = '';
+    for ( var prop in filters ) {
+      filterValue += filters[ prop ];
+    }
+    // set filter for Isotope
+    $container.isotope({ filter: filterValue });
+  });
+
+  // change is-checked class on buttons
+
+    $('.button').click( function() {
+      $('.button-group').find('.is-checked').removeClass('is-checked');
+      $( this ).addClass('is-checked');
+    });
+
+});
+$(document).ready(function(){
+  $(".contact").click(function(){
+$('body').animate({scrollTop: $('body').get(0).scrollHeight}, 1500);
+});
+});
+
+
+</script>
+<style type="text/css">
+	</style>
+
+<script src="//use.typekit.net/ciu2xjv.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+
+</head>
+
+<body>
+<div id="header"><p><a href="index.html">Katharine Banks</a></p>
+<p><a href="" style="color:black; font-family:roboto; font-size: 12px; left:-247px; font-weight:500;">ux and graphic designer</a></div></p>
+<!-- white container "-->
+<div class="holder">
+	<div class="right-sidebar"></div>
+
+<div id="filters">
+<div class="sidebar" style="margin-left:-110px; height: 1370px;"> <div class="ui-group">
+    <div class="button-group js-radio-button-group" data-filter-group="illustration">
+      <div class="category" data-filter="">Portfolio</div> <p></p>
+      <a class="button" href="newwebsite.html">all work</a> <p></p>
+      <a class="button" data-filter=".graduate">graduate work</a><p></p>
+      <a class="button" data-filter=".interaction">web + interactive</a><p></p>
+      <a class="button" data-filter=".graphic-design">graphic design</a><p></p>
+      <a class="button" href=""></a></div> 
+    <br><br><br>
+     <div class="button-group js-radio-button-group" data-filter-group="illustration">
+         <div class="category" data-filter="">About Me</div> <p></p>
+    <a href="images/Katharine-Banks-Resume.pdf" target="_blank" class="resumebutton" data-filter="">resume</a><p></p>
+    <a class="button" href="designprocess.html">design process</a><p></p>
+    </div>
+    <br><br><br>
+      <div class="contact" style="margin-right:20%";>Contact</div>
+          </div>
+    </div></div>
+
+<!-- white container "-->
+<div class="holder" style="height:750px;" >
+    
+<div class="headerTitle" style="margin-top: -8%;">Course: HCI 440 - Introduction to User Centered Design <br><br>
+    <img src="images/weatherornot.png" style="width: 210px; margin-left: -1%">
+    <p style="font-size:13.25px; font-weight:300; line-height:0px; font-style: italic; margin-top: 2px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;user experience design</p>
+    <p class="introduction">PROJECT BACKGROUND</p><p style="font-size:13.25px; font-weight:300; line-height:15px; margin-top:-.5%;">Students were given 2 hours in class to come up with a mobile app concept and sketched wireframes that would address the below prompt: </p>
+
+    <p style="font-size:13.25px; font-style: italic; font-weight:300; line-height:15px; margin-top:-.5%;">"On a recent Friday in Boulder I packed up my bag for work, got my son ready for school and went out the door. It was 50 degrees and sunny out, and I dressed appropriately. I was inside most of the day in meetings and didn’t pay much attention to what was happening outside. When I left work to catch the bus on my way home it was raining, 30 degrees, and the temperature was dropping fast. I was freezing and soaked by the time I got home. Clearly I could have planned my day better."</p>
+
+    <p style="font-size:13.25px; font-weight:300; line-height:15px; margin-top:-.5%;">The final deliverables were an explanation of our design process and app, as well as low-fidelity wireframes.</p>
+    
+    <p class="introduction">DESIGN PROCESS</p><p style="font-size:13.25px; font-weight:300; line-height:15px; margin-top:-.5%;">• Researched top weather app competitors within the iTunes app store</p>
+
+    <p style="font-size:13.25px; font-weight:300; line-height:15px; margin-top:-.5%;">• Created user personas based on prompt given by professor, determined use scenarios and flows for these users</p>
+
+    <p style="font-size:13.25px; font-weight:300; line-height:15px; margin-top:-.5%;">• Ideated designs and sketched wireframes</p>
+    
+    <p class="introduction">POST CLASS</p><p style="font-size:13.25px; font-weight:300; line-height:15px; margin-top:-.5%;">• Created high-fidelity app wireframes</p><p style="font-size:13.25px; font-weight:300; line-height:15px; margin-top:-.5%;">• Annotated wireframes</p><p style="font-size:13.25px; font-weight:300; line-height:15px; margin-top:-.5%;">• Built presentation deck</p>
+
+     <p class="introduction">TOOLS</p><p style="font-size:13.25px; font-weight:300; line-height:15px; margin-top:-.5%">• Hand sketching</p>
+
+    <p style="font-size:13.25px; font-weight:300; line-height:15px; margin-top:-.5%;">• Photoshop</p>
+    
+            <p class="introduction">DELIVERABLES</p>
+    
+    
+    </div>
+    
+    <a href="WeatherOrNot.pdf" target="_blank">
+      <div class="icons shadow" style="background-image: url(images/weatherornot.jpg); background-size:150%; background-position: center 1px; margin-top:86%; margin-left:-4%;"> 
+          <div class="title">
+                              <p style="font-size:11px;">presentation deck</p>
+                                                        </div>
+                                                        </div> 
+                                                        </a>
+    
+   <a href="images/wireframe1.jpg" data-lightbox="wireframes" data-title=""><a href="images/wireframe2.jpg" data-lightbox="wireframes" data-title=""><a href="images/wireframe3.jpg" data-lightbox="wireframes" data-title=""><a href="images/wireframe4.jpg" data-lightbox="wireframes" data-title=""><a href="images/wireframe5.jpg" data-lightbox="wireframes" data-title=""><a href="images/wireframe6.jpg" data-lightbox="wireframes" data-title=""><a href="images/wireframe7.jpg" data-lightbox="wireframes" data-title="">
+      <div class="icons shadow" style="background-image: url(images/wireframeresize.jpg); background-size:140%; background-position: left .05px; margin-top:86%; margin-left:7%;"> 
+          <div class="title">
+                              <p style="font-size:11px;">annotated wireframes</p>
+                                                        </div>
+                                                        </div> 
+                                                        </a>    
+    
+      
+<div id="footer"></div>
+    <div class="footerpad-home" style="margin-left: -12.75%; margin-bottom: -42.5%;"> <div class="footerinfo">
+    <div class="footerinfo1"> <h4>Hello, I'm Katharine.</h4>
+    <h6>I'm a UX designer, documentary enthusiast, world traveler of 12 countries and Master's Candidate in HCI at DePaul University.<br><br>
+
+I currently live in the beautiful Austin, TX where I am completing a UX internship at RetailMeNot 
+
+<br> <br>
+</h5>
+    </div>
+    <div class="footerinfo2"><h4>Skills</h4>
+    <h5>
+    Wireframing<br>
+    Prototyping<br>
+    Graphic Design<br>
+    Persona Creation<br>
+    User Testing<br>
+    Competitive Analysis<br>
+    Heuristic Analysis<br>
+    Affinity Mapping<br>
+    Cognitive Walkthroughs</h5>
+    </div>
+    <div class="footerinfo3"><h4>Education</h4>
+    <h5 style="font-weight:500">DePaul University</h5>
+<h5>MS Human-Computer<br>Interaction<br><i>Sept. 2014 - Aug. 2016</i><br><br>
+<h5 style="font-weight:500">Indiana University</h5>  <h5>BA Telecommunications<br><i>Aug. 2009 - Dec. 2012</i>
+    </h5>
+    </div>
+    <div class="footerinfo4"><h4>Let's Connect!</h4>
+    <h5>
+    Feel free to contact me by email:
+    <a href="mailto:katharinecbanks@gmail.com" target="_top" style="text-decoration:none; color:#366E7F"><b>katharinecbanks@gmail.com</b></a><br>
+     <br><a class="notbutton" href="https://www.twitter.com/katiebankssays" target="_top"><img src="images/twitter.png" style="width: 58px; height: 45px; margin-left:-2%;"></a>
+     <a class="notbutton" href="https://www.linkedin.com/in/katharinebanks"><img src="images/linkedinlogo.png" style="height:45px; width:58px; margin-left: -3%;" target="_blank"></a>
+     <a class="notbutton" href="http://instagram.com/katharbee"><img src="images/instagram.png" style="width: 58px; height: 45px; margin-left: -3%;" target="_blank"></a>
+    <a class="notbutton" href="https://www.facebook.com/katie.banks.54"><img src="images/facebook.png" style="width: 58px; height: 45px; margin-left: -3%;" target="_blank"></a>
+    </h5> <h5><small>Created and Coded by Katharine Banks. &#169;2015 All Rights Reserved.</small></h5>
+    </div>
+        </div></div></div>
+
+</body>
