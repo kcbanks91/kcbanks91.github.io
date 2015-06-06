@@ -35,7 +35,7 @@ body {
 				padding-top:150px;
 				width:551px;
 				left:-441px;
-				height:1050px;
+				height:1400px;
 				top:-130px;
 				text-decoration:none;
 				text-align: right;
@@ -68,7 +68,7 @@ body {
 				left:0px;
 				top:985px;
 				width:783px;
-				height:5px;
+				height:0px;
 				background-color:white;
 				background-size: cover;
 				}
@@ -190,10 +190,19 @@ body {
 				color: black;
 				font-family: 'Roboto', sans-serif;
 				font-weight:700;
-				}			
+				}	
+
+                .introduction {
+                color: black;
+				font-family: 'Roboto', sans-serif;
+				font-weight:700;
+                margin-top: 5%;
+                font-size: 14px;
+                }
 				
 				.photoContent{
-				 position: absolute;
+				position: absolute;
+                display: block;
 				width:475px;
 				left:30px;
 				height:644px;
