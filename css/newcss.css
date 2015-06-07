@@ -21,6 +21,7 @@
 				padding-top:150px;
 				width:551px;
                 min-height: 100%;
+                max-height: 1220px;
 				left:-70.25%;
 				top:-130px;
 				text-decoration:none;
@@ -43,9 +44,7 @@
 				left:0px;
 				top:985px;
 				width:783px;
-				height:5px;
-				background-color:white;
-				background-size: cover;
+				height:auto;
 				}
 				
 				.footerinfo{
@@ -54,7 +53,7 @@
 				top:20px;
 				left:-200px;
 				width:983px;
-				height:5px;
+				height:auto;
 				
 				z-index:2;
 				}
@@ -76,9 +75,9 @@
 				position: absolute;
 				margin:auto;
 				top:-3px;
-				left:220px;
+				left:225px;
 				width:200px;
-				height:200px;
+				height:auto;
 				z-index:2;
 			
 				}
@@ -90,7 +89,7 @@
 				top:-3px;
 				left:410px;
 				width:200px;
-				height:200px;
+				height:auto;
 				z-index:2;
 			
 				
@@ -102,8 +101,8 @@
 				margin:auto;
 				top:-3px;
 				left:600px;
-				width400px;
-				height:70px;
+				width: 400px;
+				height:auto;
 				z-index:2;
 	
 			
@@ -125,11 +124,11 @@
 				position: absolute;
 				margin:auto;
 				width:783px;
-                bottom: 0px;
-				background-color:white;
-				background-size: cover;
-				
+                height: auto;
+				  bottom: 0px;
 				}
+
+
 				
 				h4{
 				font-size:15px;
