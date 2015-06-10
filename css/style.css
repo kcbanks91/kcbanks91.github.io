@@ -2,6 +2,11 @@
     height: auto;
 }
 
+@font-face {
+    font-family: "LemonMilk";
+    src: url('LemonMilk.otf');
+}
+
 /*.container{} */
 				
 				.holder {
