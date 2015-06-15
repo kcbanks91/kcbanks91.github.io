@@ -1,4 +1,25 @@
+.thumbs {
+width:165px;
+height:165px;
+margin-left:23px;
+margin-top:20px;
+margin-bottom:75px;
+border-radius: 50%;
+float: left;
+}
 
+.title {
+				position:relative;
+				margin:auto;
+				top:5px;
+				width:165px;
+				text-align: center;
+				font-size:12px;
+				line-height:4px;
+				font-family: 'Roboto Condensed', sans-serif;
+				margin-top:130pt;
+				color: black;
+				}
 
 .icons {
 		width: 33.333%;
