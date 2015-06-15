@@ -12,13 +12,13 @@
     <!-- Bootstrap + Font Awesome + Main CSS -->
     <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
-    <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
     <link href="css/main.css" rel="stylesheet">
     <script src="js/lightbox.js"></script>
     <link href="css/lightbox2.css" rel="stylesheet" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/isotope.js"></script>
-    <script src="js/jquery.isotope.js" type="text/javascript"></script> 
+    <script src="js/jribbble.min.js"></script>
+    <script src="js/bootstrap.js"></script>
     
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,15 +26,46 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
-<script> 
 
+<script>
 
+  $( function() {
+  // init Isotope
+  var $container = $('.isotope').isotope({
+    itemSelector: '.icons'
+  });
 
-    
+  // store filter for each group
+  var filters = {};
+
+  $('#filters').on( 'click', '.button', function() {
+    var $this = $(this);
+    // get group key
+    var $buttonGroup = $this.parents('.button-group');
+    var filterGroup = $buttonGroup.attr('data-filter-group');
+    // set filter for group
+    filters[ filterGroup ] = $this.attr('data-filter');
+    // combine filters
+    var filterValue = '';
+    for ( var prop in filters ) {
+      filterValue += filters[ prop ];
+    }
+    // set filter for Isotope
+    $container.isotope({ filter: filterValue });
+  });
+
+  // change is-checked class on buttons
+
+    $('.button').click( function() {
+      $('.button-group').find('.is-checked').removeClass('is-checked');
+      $( this ).addClass('is-checked');
+    });
+
+  });
+
 </script>
 
-<script src="//use.typekit.net/ciu2xjv.js"></script>
+<script src="http://use.typekit.net/ciu2xjv.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
     
     
@@ -267,9 +298,6 @@
             </nav>
         </div>
 <!-- jQuery from CDN -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-     <script src="js/jribbble.js"></script>
-      <script src="js/bootstrap.js"></script>
 <script>
 var callback = function (playerShots) {
             var html = '';
@@ -289,7 +317,8 @@ var callback = function (playerShots) {
         <!-- Modify 'gsvineeth' username with your dribbble profile id -->
         $.jribbble.getShotsByPlayerId('gsvineeth', callback, {page: 1, per_page: 20});
     
-        </script>
+
+</script>
     </footer>
 </body>
 <!--
