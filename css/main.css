@@ -1,3 +1,23 @@
+	/* filtering buttons */
+a.filtering {
+    border:1px solid #efefef;
+    margin:5px;
+    padding:8px 14px 7px;
+    font-size:12px;
+    color:#44454b
+}
+
+a.filtering:hover {
+    color:#77aadf;
+    border-color:#77aadf
+}				
+					
+a.button.is-checked{
+color:#77aadf;
+    border-color: #77aadf;
+}	
+
+
 .thumbs {
 width:165px;
 height:165px;
@@ -6,6 +26,7 @@ margin-top:20px;
 margin-bottom:75px;
 border-radius: 50%;
 float: left;
+border: black 1px solid;
 }
 
 .title {
@@ -87,32 +108,34 @@ float: left;
 			background-color: #0d6381;
 		}
 		.work-tile-img:hover .tile-description {
-			opacity: .90;
+			opacity: .95;
 		}
 		.work-tile-img:active .tile-description {
-			opacity: .90;
+			opacity: .95;
 		}
 
 	.tile-description h4 {
 		text-align: center;
 		font-size: 28px;
-		line-height: 40px;
+		line-height: 30px;
 		color: #ffffff;
-		padding: 0 40px;
+		padding: 0 10px;
 		font-weight: 400;
 	}
+
 	.tile-description p {
 		color: #ffffff;
 		text-align: center;
-		font-weight: 700;
+		font-weight: 500;
 		font-size: 13px;
-		line-height: 40px;
+		line-height: 5px;
 		text-transform: uppercase;
+        font-style: italic;
 		letter-spacing: 1px;
 		margin-bottom: 0;
 	}
 
-	/* SPECIFIC TILES */
+
 /* SPECIFIC TILES */
 	#new-york-cheesecake {
 		background-image: url(../images/cheesecake.jpg);
@@ -188,7 +211,7 @@ a {
     transition:all .25s ease-in-out;
     -moz-transition:all .25s ease-in-out;
     -o-transition:all .25s ease-in-out;
-    -webkit-transition:all .25s ease-in-out
+    -webkit-transition:all .25s ease-in-out;
 }
 
 .inline-block {
@@ -250,12 +273,14 @@ width: 100%;
     background:none;
     color:#77aadf;
 }
+
 .navbar-nav>li>a:focus{
     background:none;
  }
  
 .social li{
-display: inline-block}
+display: inline-block
+}
 
 /* Intro */
 .intro {
