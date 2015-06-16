@@ -1,5 +1,5 @@
 	/* filtering buttons */
-a.filtering {
+button.filtering {
     border:1px solid #efefef;
     margin:5px;
     padding:8px 14px 7px;
@@ -7,15 +7,15 @@ a.filtering {
     color:#44454b
 }
 
-a.filtering:hover {
+button.filtering:hover {
     color:#77aadf;
     border-color:#77aadf
-}				
-					
-a.button.is-checked{
+}
+
+button.button.is-checked{
 color:#77aadf;
     border-color: #77aadf;
-}	
+}
 
 
 .thumbs {

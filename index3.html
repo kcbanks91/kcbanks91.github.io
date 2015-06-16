@@ -10,14 +10,13 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
     
     <!-- Bootstrap + Font Awesome + Main CSS -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <script src="js/lightbox.js"></script>
     <link href="css/lightbox2.css" rel="stylesheet" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/jribbble.min.js"></script>
     <script src="js/bootstrap.js"></script>
     
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -65,8 +64,8 @@
 
 </script>
 
-<script src="http://use.typekit.net/ciu2xjv.js"></script>
-<script>try{Typekit.load();}catch(e){}</script>
+<!-- This does not appear to work. <script src="http://use.typekit.net/ciu2xjv.js"></script> -->
+<!-- <script>try{Typekit.load();}catch(e){}</script> -->
     
     
 </head>
@@ -106,11 +105,12 @@
                         <h1 class="intro" style="text-align: center"><span>Katharine Banks<br><p style="font-family: Open Sans; font-size: 20px">UX designer. World traveler. Pizza aficionado.</p> </span></h1>
                     </div>   
                 
-                <div id="filters" class="button-group">  <a class="button is-checked filtering" data-filter="*" style="margin-left: 32%"> all</button>
-  <a class="button filtering" data-filter=".graduate">graduate work</button>
-  <a class="button filtering" data-filter=".ux">web + interactive</button>
-  <a class="button filtering" data-filter=".graphic">graphic design</button>
-</div>     
+                <div id="filters" class="button-group">  
+                  <button class="button is-checked filtering" data-filter="*"> all</button>
+                  <button class="button filtering" data-filter=".graduate">graduate work</button>
+                  <button class="button filtering" data-filter=".ux">web + interactive</button>
+                  <button class="button filtering" data-filter=".graphic">graphic design</button>
+                </div>
             </header>
           
             
@@ -299,28 +299,6 @@
                 <p class="credits text-center">&copy; 2015 Katharine Banks</p>
             </nav>
         </div>
-<!-- jQuery from CDN -->
-<script>
-var callback = function (playerShots) {
-            var html = '';
-            $('h2 b').text(playerShots.shots[0].player.name);
-            $.each(playerShots.shots, function (i, shot) {
-               html += '<div class="col-sm-6 col-md-4 col-lg-4"> <div class="grid-list"> ';          
-                html += '<a target="_blank" href="' + shot.url + '">';
-                html += '<img class="img-responsive" src="' + shot.image_url + '" ';
-                html += 'alt="' + shot.title + '"><\/a>';
-                html += '<div class="overlay"><a target="_blank"  href="' + shot.url + '">';  
-                html += '<h2>' + shot.title + '<\/h2>';  
-                html += '<\/a> <\/div><\/div><\/div>';  
-            });
-            $('#shotsByPlayerId').html(html);
-        };
-        
-        <!-- Modify 'gsvineeth' username with your dribbble profile id -->
-        $.jribbble.getShotsByPlayerId('gsvineeth', callback, {page: 1, per_page: 20});
-    
-
-</script>
     </footer>
 </body>
 <!--
