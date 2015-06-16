@@ -1,4 +1,9 @@
-	/* filtering buttons */
+	/* remove blue glow */
+button {
+    outline: none;
+}
+
+/* filtering buttons */
 button.filtering {
     border:1px solid #efefef;
     margin:5px;
@@ -15,6 +20,11 @@ button.filtering:hover {
 button.button.is-checked{
 color:#77aadf;
     border-color: #77aadf;
+    background-color: #ffffff;
+}
+
+button {
+    background-color: #ffffff;
 }
 
 
