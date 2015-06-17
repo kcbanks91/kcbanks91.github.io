@@ -63,7 +63,8 @@ float: left;
 				color: black;
 				}
 
-.icons {
+
+  .icons {
 		width: 33.333%;
 		height: 0;
 		padding-bottom: 23.3%;
@@ -72,7 +73,8 @@ float: left;
 		float: left;
 		position: relative;
 		margin: 8px 0;
-	}
+  }
+
 	.work-tile-img {
 		top: 0;
 		bottom: 0;

@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Katharine Banks' Portfolio - Home</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="keywords" content="Katharine Banks graphic design print web advertising html css photoshop indesign illustrator Chicago UX user experience DePaul"/>
+		<meta name="description" content="Katharine Banks' web and graphic design portfolio"/>
+		<meta name="author" content="Website and content created by Katharine Banks"/>
+		<meta name="copyright" content="2015 Katharine Banks"/>
+<link href='css/style.css' rel='stylesheet' type='text/css' media='screen and (min-device-width : 1025px)'/>
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,900' rel='stylesheet' type='text/css'>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/lightbox.js"></script>
+    <link href="css/lightbox2.css" rel="stylesheet" />
+    
+<script> 
+//YOU NEED TO MAKE THIS FILE lowercase 'i'!!
+$( function() {
+  // init Isotope
+  var $container = $('.isotope').isotope({
+    itemSelector: '.icons'
+  });
+
+  // store filter for each group
+  var filters = {};
+
+  $('#filters').on( 'click', '.button', function() {
+    var $this = $(this);
+    // get group key
+    var $buttonGroup = $this.parents('.button-group');
+    var filterGroup = $buttonGroup.attr('data-filter-group');
+    // set filter for group
+    filters[ filterGroup ] = $this.attr('data-filter');
+    // combine filters
+    var filterValue = '';
+    for ( var prop in filters ) {
+      filterValue += filters[ prop ];
+    }
+    // set filter for Isotope
+    $container.isotope({ filter: filterValue });
+  });
+
+  // change is-checked class on buttons
+
+    $('.button').click( function() {
+      $('.button-group').find('.is-checked').removeClass('is-checked');
+      $( this ).addClass('is-checked');
+    });
+
+});
+$(document).ready(function(){
+  $(".contact").click(function(){
+$('body').animate({scrollTop: $('body').get(0).scrollHeight}, 1500);
+});
+});
+
+
+</script>
+<style type="text/css">
+	</style>
+
+<script src="//use.typekit.net/ciu2xjv.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+
+</head>
+
+<body>
+<div id="header"><p><a href="index.html">Katharine Banks</a></p>
+<p><a href="index.html" style="color:black; font-family:roboto; font-size: 12px; left:-247px; font-weight:500;">ux and graphic designer</a></div></p>
+<!-- white container "-->
+<div class="holder">
+
+<div id="filters">
+<div class="sidebar2" style="height: 1550px"> <div class="ui-group">
+    <div class="button-group js-radio-button-group" data-filter-group="illustration">
+      <div class="category" data-filter="">Portfolio</div> <p></p>
+      <a class="button" data-filter="" href="index.html">all work</a> <p></p>
+      <a class="button" data-filter=".index" href="index.html">graduate work</a><p></p>
+      <a class="button" data-filter=".interaction" href="index.html">web + interactive</a><p></p>
+      <a class="button" data-filter=".graphic-design" href="index.html">graphic design</a><p></p>
+      <a class="button" href=""></a></div> 
+    <br><br><br>
+     <div class="button-group js-radio-button-group" data-filter-group="illustration">
+         <div class="category" data-filter="">About Me</div> <p></p>
+    <a href="images/Katharine-Banks-Resume.pdf" target="_blank" class="resumebutton" data-filter="">resume</a><p></p>
+    </div>
+    <br><br><br>
+      <div class="contact" style="margin-right:20%";>Contact</div>
+          </div>
+  </div>
+
+<div class="headerTitle" style="margin-top: 2.2%; margin-left: 9%">Course: HCI 454 - Interaction Design and Information Architecture <br><br>Five Hat Racks
+    <p style="font-size:13.25px; font-weight:300; line-height:0px; font-style: italic; margin-top: 8px; margin-left: -2.8%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;information architecture</p>
+    <p class="introduction" style="margin-top:4%">BACKGROUND</p><p style="font-size:13.25px; font-weight:300; line-height:15px; margin-top:-.5%;">The concept of the "Five Hat Racks" was originally developed by Richard Saul Wurman in his book <i>Information Anxiety</i>. In a nutshell, there are 5 ways to organize information: By Location, Alphabet, Time, Category and Continuum. Every way you can think of to organize data will fit in to one of those groupings.</p>
+
+    <p style="font-size:13.25px; font-weight:300; line-height:15px; margin-top:-.5%;">For this assignment, students were given direction to choose a subject of their choice and then:</p>
+
+    <p style="font-size:13.25px; font-weight:300; line-height:15px; margin-top: -1.5%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Organize the subject using at least three of the five racks</p>
+    <p style="font-size:13.25px; font-weight:300; line-height:15px; margin-top: -1.5%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Create a graphic that combined the hat racks and include an explanation of why you chose the topic and racks</p>
+    
+    <p class="introduction" style="margin-top:4%">DELIVERABLE</p>
+    <img src="images/hci454.jpg" style="width: 97%">
+    <p style="font-size:13.25px; font-weight:300; line-height:15px; width: 97%">I decided to focus on the main character deaths that have occurred thus far in the Game of Thrones novels because it’s mainly these character deaths that have propelled the story forward.</p>
+
+    <p style="font-size:13.25px; font-weight:300; line-height:15px; margin-top:-.5%; width: 97%">I first chose “Location” because it brings Westeros' size into perspective and shows that there is no part of the kingdom that has been left untouched by death.</p>
+
+    <p style="font-size:13.25px; font-weight:300; line-height:15px; margin-top:-.5%; width: 97%">I then chose alphabetically by surname, as many times in the books characters are referred to by solely their surnames (as that is what matters most in Westeros.)</p>
+    
+    <p style="font-size:13.25px; font-weight:300; line-height:15px; margin-top:-.5%; width: 97%">Lastly, I organized categorically by house, as this is very defining for characters. Their sigils and colors are described at every chance and the characters take great pride in their houses.</p>
+    
+    </div>
+    
+   
+<div id="footer"></div>
+    <div class="footerpad-home"> <div class="footerinfo" style="margin-top: 20%">
+    <div class="footerinfo1"> <h4>Hello, I'm Katharine.</h4>
+    <h6>I'm a UX designer, documentary enthusiast, world traveler of 12 countries and Master's Candidate in HCI at DePaul University.<br><br>
+
+I currently live in the beautiful Austin, TX where I am completing a UX internship at RetailMeNot 
+
+<br> <br>
+</h5>
+    </div>
+    <div class="footerinfo2"><h4>Skills</h4>
+    <h5>
+    Wireframing<br>
+    Prototyping<br>
+    Graphic Design<br>
+    Persona Creation<br>
+    User Testing<br>
+    Competitive Analysis<br>
+    Heuristic Analysis<br>
+    Affinity Mapping<br>
+    Cognitive Walkthroughs</h5>
+    </div>
+    <div class="footerinfo3"><h4>Education</h4>
+    <h5 style="font-weight:500">DePaul University</h5>
+<h5>MS Human-Computer<br>Interaction<br><i>Sept. 2014 - Aug. 2016</i><br><br>
+<h5 style="font-weight:500">Indiana University</h5>  <h5>BA Telecommunications<br><i>Aug. 2009 - Dec. 2012</i>
+    </h5>
+    </div>
+    <div class="footerinfo4"><h4>Let's Connect!</h4>
+    <h5>
+    Feel free to contact me by email:
+    <a href="mailto:katharinecbanks@gmail.com" target="_top" style="text-decoration:none; color:#366E7F"><b>katharinecbanks@gmail.com</b></a><br>
+     <br><a class="notbutton" href="https://www.twitter.com/katiebankssays" target="_top"><img src="images/twitter.png" style="width: 58px; height: 45px; margin-left:-2%;"></a>
+     <a class="notbutton" href="https://www.linkedin.com/in/katharinebanks"><img src="images/linkedinlogo.png" style="height:45px; width:58px; margin-left: -3%;" target="_blank"></a>
+     <a class="notbutton" href="http://instagram.com/katharbee"><img src="images/instagram.png" style="width: 58px; height: 45px; margin-left: -3%;" target="_blank"></a>
+    <a class="notbutton" href="https://www.facebook.com/katie.banks.54"><img src="images/facebook.png" style="width: 58px; height: 45px; margin-left: -3%;" target="_blank"></a>
+    </h5> <h5><small>Created and Coded by Katharine Banks. &#169;2015 All Rights Reserved.</small></h5>
+    </div>
+        </div></div></div>
+
+</body>
