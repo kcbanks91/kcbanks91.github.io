@@ -184,8 +184,9 @@ float: left;
 	#fruit-benefits {
 		background-image: url(../images/benefitsoffruit.jpg);
 	}
-	#american-lung-association {
-		background-image: url(../images/americanlungassociation.jpg);
+	#smoking-kills {
+		background-image: url(../images/smokingkills.png);
+        background-size:150%;
 	}
 	#print-flyer {
 		background-image: url(../images/DP.png);
