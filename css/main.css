@@ -173,10 +173,12 @@ float: left;
 		background-image: url(../images/donorpathlaptop.jpg);
 	}
 #weather-or-not {
-		background-image: url(../images/weatherornot.jpg);
+		background-image: url(../images/rainiphone.png);
 	}
 #bean {
-		background-image: url(../images/beanhand.jpg);
+		background-image: url(../images/coffeebean.png);
+    background-size:130%;
+    background-position: -30px 0px 0px -30px;
 	}
 #hci454 {
 		background-image: url(../images/hci454.jpg);
@@ -189,7 +191,8 @@ float: left;
         background-size:150%;
 	}
 	#print-flyer {
-		background-image: url(../images/DP.png);
+		background-image: url(../images/flyer%20copy.png);
+        background-size: 131%;
 	}
 	#infographic {
 		background-image: url(../images/donorpathinfographic.jpg);
