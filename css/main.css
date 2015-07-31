@@ -5,7 +5,7 @@ button {
 
 /* filtering buttons */
 button.filtering {
-    border:1px solid #efefef;
+    border:none;
     margin:5px;
     padding:8px 14px 7px;
     font-size:12px;
@@ -14,13 +14,14 @@ button.filtering {
 
 button.filtering:hover {
     color:#77aadf;
-    border-color:#77aadf
+    border-bottom: 1px solid #77aadf;
 }
 
 button.button.is-checked{
-color:#77aadf;
-    border-color: #77aadf;
+    color:#77aadf;
+    border-bottom: 2px solid #77aadf;
     background-color: #ffffff;
+    font-weight: bold;
 }
 
 button {
