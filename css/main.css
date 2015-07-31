@@ -176,9 +176,9 @@ float: left;
 		background-image: url(../images/rainiphone.png);
 	}
 #bean {
-		background-image: url(../images/coffeebean.png);
-    background-size:130%;
-    background-position: -30px 0px 0px -30px;
+		background-image: url(../images/coffee.png);
+    background-size:125%;
+    background-position: -60px 0px 0px 50px;
 	}
 #hci454 {
 		background-image: url(../images/hci454.jpg);
@@ -193,8 +193,6 @@ float: left;
 	#print-flyer {
 		background-image: url(../images/flyer%20copy.png);
         background-size: 131%;
-
-		background-image: url(../images/dpgoodbag.jpg);
 	}
 	#infographic {
 		background-image: url(../images/donorpathinfographic.jpg);
