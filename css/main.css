@@ -193,6 +193,8 @@ float: left;
 	#print-flyer {
 		background-image: url(../images/flyer%20copy.png);
         background-size: 131%;
+
+		background-image: url(../images/dpgoodbag.jpg);
 	}
 	#infographic {
 		background-image: url(../images/donorpathinfographic.jpg);
