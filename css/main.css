@@ -8,18 +8,18 @@ button.filtering {
     border:none;
     margin:5px;
     padding:8px 14px 7px;
-    font-size:12px;
+    font-size:.9em;
     color:#44454b
 }
 
 button.filtering:hover {
     color:#77aadf;
-    border-bottom: 1px solid #77aadf;
+    border-bottom: 3px solid #77aadf;
 }
 
 button.button.is-checked{
     color:#77aadf;
-    border-bottom: 2px solid #77aadf;
+    border-bottom: 3px solid #77aadf;
     background-color: #ffffff;
     font-weight: bold;
 }
@@ -165,7 +165,8 @@ float: left;
 		background-image: url(../images/cheesecake.jpg);
 	}
 #fashion-guru {
-		background-image: url(../images/fashionguruiphone.jpg);
+		background-image: url(../images/smallerfashionguru.jpg);
+    background-size: 125%;
 	}
 #amazon-process {
 		background-image: url(../images/AmazonProcessFlow.jpg);
@@ -174,10 +175,10 @@ float: left;
 		background-image: url(../images/donorpathlaptop.jpg);
 	}
 #weather-or-not {
-		background-image: url(../images/rainiphone.png);
+		background-image: url(../images/smallweather.jpg);
 	}
 #bean {
-		background-image: url(../images/coffee.png);
+		background-image: url(../images/coffee.jpg);
     background-size:125%;
     background-position: -60px 0px 0px 50px;
 	}
@@ -185,10 +186,10 @@ float: left;
 		background-image: url(../images/hci454.jpg);
 	}
 	#fruit-benefits {
-		background-image: url(../images/benefitsoffruit.jpg);
+		background-image: url(../images/fruitbenefits.jpg);
 	}
 	#smoking-kills {
-		background-image: url(../images/smokingkills.png);
+		background-image: url(../images/magazineala.jpg);
         background-size:150%;
 	}
 	#print-flyer {
