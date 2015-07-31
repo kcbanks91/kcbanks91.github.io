@@ -165,7 +165,8 @@ float: left;
 		background-image: url(../images/cheesecake.jpg);
 	}
 #fashion-guru {
-		background-image: url(../images/fashionguruiphone.jpg);
+		background-image: url(../images/fashionguruiphonetile.png);
+    background-size: 125%;
 	}
 #amazon-process {
 		background-image: url(../images/AmazonProcessFlow.jpg);
