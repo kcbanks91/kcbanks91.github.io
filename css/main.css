@@ -196,8 +196,9 @@ float: left;
 		background-image: url(../images/flyer%20copy.png);
         background-size: 131%;
 	}
-	#infographic {
-		background-image: url(../images/donorpathinfographic.jpg);
+	#retailmenot {
+		background-image: url(../images/mdothomepage.jpg);
+        background-size: 115%;
 	}
 	#wgn {
 		background-image: url(../images/retailmenot.jpg);
