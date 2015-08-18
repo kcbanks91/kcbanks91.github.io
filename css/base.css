@@ -1,0 +1,141 @@
+/*Process*/
+
+.prSingle{
+	border:1px solid #dcdcdc;
+	padding:20px 20px;
+}
+
+.prIcoHolder{
+	background:#ffffff;
+	margin:-45px auto 0;
+	max-width: 100px;
+}
+
+.prIco{
+	padding:3px;
+	font-size:20px;
+	border:1px solid #dcdcdc;
+	margin-bottom:30px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-top: -75%;
+}
+
+.innerIco{
+	display:inline-block;
+	color:#343434;
+}
+
+
+
+.prTitle{
+	font-size:16px;
+	margin-bottom:8px;
+	color:#C3512F;
+    text-align: center;
+    font-family: Open Sans;
+  font-size: 16px;
+}
+
+
+
+.prSingle p{
+	padding-bottom:15px;
+}
+
+.prSingle p:after {
+    border-bottom: 1px solid #dcdcdc;
+    content: "";
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 32px;
+    width: 180px;
+    z-index: 0;
+}
+
+.prSingle ul{
+	color:#343434;
+	line-height:25px;
+	padding-top:10px;
+}
+
+.introShort{
+	font-size:18px;
+}
+
+
+.teamHolder {
+    overflow: hidden;
+    width: 100%;
+	margin-top:40px;
+
+}
+
+.singleTeam  {
+	 display:block;
+	 position: relative;
+	 width:33.33%;
+	 float:left;
+}
+
+
+.tImg{
+	position: relative;
+}
+
+.tImg img {
+  	display: inline-block;
+    overflow: hidden;
+    width: 100%;
+	
+}
+
+.tProfile {
+    display: block;
+    width:100%;
+    position: absolute;
+    top: 165px;
+}
+
+.prTitle i{
+	font-size:6px;
+	position:relative;
+	margin-left:5px;
+	margin-right:5px;
+	top:-3px;
+}
+
+.tProfile h3{
+	font-size:16px;
+	color:#ffffff;
+	text-transform:none;
+	margin-bottom:5px;
+}
+
+.tProfile span{
+	display:block;
+	font-size:13px;
+}
+
+
+
+
+/* #Base 960 Grid
+================================================== */
+
+    .container2                                  { position: relative; width: 960px; margin: 0 auto; padding: 0; }
+    .container2 .column,
+	.columns, 
+    .container2 .columns                         { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
+    .row                                        { margin-bottom: 20px; }
+
+
+    /* Base Grid */
+
+    .container2 .one-third.column                { width: 300px; }
+
+
+/*End about section*/

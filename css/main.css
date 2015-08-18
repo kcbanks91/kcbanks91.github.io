@@ -413,7 +413,7 @@ footer p {
 .credits {
     color:#e7e7e7;
     font-weight:100;
-    margin:7px 0
+    margin:7px 0;
 }
 
 .navbar-brand-wrapper {
@@ -445,7 +445,8 @@ footer {
 }
 
 @media only screen and (min-width: 480px) {
-
+.container{
+    background: #fff;
 }
 
 @media only screen and (min-width: 768px) {
@@ -546,7 +547,7 @@ header {
 
 .grid-list {
     margin:0;
-    padding:0
+    padding:0;
 }
 
 .navbar {
@@ -565,11 +566,11 @@ header {
 .wrapper {
     padding:0 0 4em;
     margin:3em 0 0;
-    clear:both
+    clear:both;
 }
 
 .wrapper .container {
-    box-shadow:0 0 30px rgba(0,0,0,.3)
+    box-shadow:0 0 30px rgba(0,0,0,.3);
 }
 }
 
