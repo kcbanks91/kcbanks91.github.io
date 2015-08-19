@@ -43,7 +43,7 @@
 	padding-bottom:15px;
 }
 
-/*.prSingle p:after {
+.prSingle p:after {
     border-bottom: 1px solid #dcdcdc;
     content: "";
     display: block;
@@ -53,7 +53,7 @@
     top: 32px;
     width: 180px;
     z-index: 0;
-}*/
+}
 
 .prSingle ul{
 	color:#343434;
