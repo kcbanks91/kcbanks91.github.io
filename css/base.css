@@ -30,12 +30,11 @@
 
 
 .prTitle{
-	font-size:16px;
+	font-size:17px;
 	margin-bottom:8px;
 	color:#db6b6a;
     text-align: center;
     font-family: Open Sans;
-  font-size: 16px;
 }
 
 
@@ -44,7 +43,7 @@
 	padding-bottom:15px;
 }
 
-.prSingle p:after {
+/*.prSingle p:after {
     border-bottom: 1px solid #dcdcdc;
     content: "";
     display: block;
@@ -54,7 +53,7 @@
     top: 32px;
     width: 180px;
     z-index: 0;
-}
+}*/
 
 .prSingle ul{
 	color:#343434;
