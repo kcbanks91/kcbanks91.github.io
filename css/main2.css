@@ -9,7 +9,7 @@ button.filtering {
     margin:5px;
     padding:8px 14px 7px;
     font-size:.9em;
-    color:#999;
+    color:#999
 }
 
 button.filtering:hover {
@@ -18,7 +18,7 @@ button.filtering:hover {
 }
 
 button.button.is-checked{
-    color:#333;
+    color:#44454b;
     border-bottom: 3px solid #77aadf;
     background-color: #ffffff;
     font-weight: bold;
@@ -165,36 +165,32 @@ float: left;
 		background-image: url(../images/cheesecake.jpg);
 	}
 #fashion-guru {
-		background-image: url(../images/fashionguruiphonetile.png);
+		background-image: url(../images/smallerfashionguru.jpg);
     background-size: 125%;
 	}
 #amazon-process {
-		background-image: url(../images/amazonboxes.jpg);
-    background-position-y: -90px;
+		background-image: url(../images/AmazonProcessFlow.jpg);
 	}
 #donorpath-redesign {
-		background-image: url(../images/redesign.jpg);
+		background-image: url(../images/donorpathlaptop.jpg);
 	}
 #weather-or-not {
 		background-image: url(../images/smallweather.jpg);
 	}
 #bean {
-		background-image: url(../images/beancup.jpg);
-    background-size:115%;
-    background-position-x: -40px;
-    background-position-y: -20px;
+		background-image: url(../images/coffee.jpg);
+    background-size:125%;
+    background-position: -60px 0px 0px 50px;
 	}
 #hci454 {
-		background-image: url(../images/hatrack.jpg);
+		background-image: url(../images/hci454.jpg);
 	}
 	#fruit-benefits {
 		background-image: url(../images/fruitbenefits.jpg);
 	}
 	#smoking-kills {
-		background-image: url(../images/magazine.jpg);
+		background-image: url(../images/magazineala.jpg);
         background-size:150%;
-        background-position-y: -41px;
-        background-position-x: -65px;
 	}
 	#print-flyer {
 		background-image: url(../images/flyer%20copy.png);
@@ -214,7 +210,7 @@ nav.primary ul li a:active, nav.primary ul li a.selected {
 
 
 html {
-    background:#77aadf;
+    background:#ffffff;
 }
 
 @font-face {
@@ -227,7 +223,7 @@ body {
 }
 
 .wrapper {
-    background:#77aadf;
+    background:#ffffff;
 }
 
 .content-inner {
@@ -281,7 +277,7 @@ width: 100%;
     padding:8px 14px 7px;
     font-size:1.3em;
     height:auto;
-    color:#44454b
+    color:#44454b;
 }
 
 .navbar-brand:hover {
@@ -554,10 +550,6 @@ header {
     padding:0;
 }
 
-.navbar {
-    padding:3em 50px 1em
-}
-
 .intro {
     padding:0 50px 2em
 }
@@ -574,7 +566,7 @@ header {
 }
 
 .wrapper .container {
-    box-shadow:0 0 30px rgba(0,0,0,.3);
+    box-shadow:0 0 0px rgba(0,0,0,0);
 }
 }
 
