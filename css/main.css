@@ -157,12 +157,34 @@ float: left;
         font-style: italic;
 		letter-spacing: 1px;
 		margin-bottom: 0;
+        margin-top: -13px;
 	}
+
+	.tile-description h3 {
+		color: #ffffff;
+		text-align: center;
+		font-weight: 500;
+		font-size: 13px;
+		line-height: 5px;
+        font-style: italic;
+		letter-spacing: 1px;
+		margin-bottom: 0;
+	}
+
+hr {
+    width: 80%;
+}
 
 
 /* SPECIFIC TILES */
 	#new-york-cheesecake {
 		background-image: url(../images/cheesecake.jpg);
+	}
+	#card-connection {
+		background-image: url(../images/wallet.jpg);
+            background-size: 240%;
+            background-position-x: 51%;
+            background-position-y: 14%;
 	}
 #fashion-guru {
 		background-image: url(../images/fashionguruiphonetile.png);
@@ -176,7 +198,7 @@ float: left;
 		background-image: url(../images/redesign.jpg);
 	}
 #weather-or-not {
-		background-image: url(../images/smallweather.jpg);
+		background-image: url(../images/weather.jpg);
 	}
 #bean {
 		background-image: url(../images/beancup.jpg);
@@ -197,8 +219,9 @@ float: left;
         background-position-x: -65px;
 	}
 	#print-flyer {
-		background-image: url(../images/flyer%20copy.png);
-        background-size: 131%;
+		background-image: url(../images/box.jpg);
+        background-size: 315%;
+        background-position-y: 75%;
 	}
 	#retailmenot {
 		background-image: url(../images/mdothomepage.jpg);
