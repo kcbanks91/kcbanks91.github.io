@@ -172,7 +172,7 @@ float: left;
 	}
 
 hr {
-    width: 80%;
+    width: 75%;
 }
 
 
@@ -187,8 +187,11 @@ hr {
             background-position-y: 14%;
 	}
 #fashion-guru {
-		background-image: url(../images/fashionguruiphonetile.png);
-    background-size: 125%;
+		background-image: url(../images/yslbag.jpg);
+    background-size: 126%;
+    background-position-y: -36%;
+    background-position-x: 65%;
+    background-color: #e5e5e5;
 	}
 #amazon-process {
 		background-image: url(../images/amazonboxes.jpg);
@@ -210,7 +213,9 @@ hr {
 		background-image: url(../images/hatrack.jpg);
 	}
 	#fruit-benefits {
-		background-image: url(../images/fruitbenefits.jpg);
+		background-image: url(../images/imac.jpg);
+            background-size:150%;
+    background-position-y: 24%;
 	}
 	#smoking-kills {
 		background-image: url(../images/magazine.jpg);
@@ -228,7 +233,9 @@ hr {
         background-size: 115%;
 	}
 	#wgn {
-		background-image: url(../images/retailmenot.jpg);
+		background-image: url(../images/ipad.jpg);
+        background-size: 175%;
+        background-position-y: 36%;
 	}
 
 nav.primary ul li a:active, nav.primary ul li a.selected { 
