@@ -46,9 +46,9 @@ float: left;
 				}
 
 .shadow {
-   -moz-box-shadow:    inset 0 0 15px #565656;
-   -webkit-box-shadow: inset 0 0 15px #565656;
-   box-shadow:         inset 0 0 15px #565656;
+   -moz-box-shadow:    inset 0 0 15px #cccccc;
+   -webkit-box-shadow: inset 0 0 15px #cccccc;
+   box-shadow:         inset 0 0 15px #cccccc;
 }
 
 .title {
@@ -154,8 +154,9 @@ float: left;
 .tile-company-title {
     font-family: Open Sans; 
     font-size: 10px;
+    font-style: italic;
     text-align: center;
-    color: #333333;
+    color: #999;
 }
 
 
