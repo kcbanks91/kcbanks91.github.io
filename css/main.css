@@ -201,8 +201,8 @@ float: left;
 
 	#card-connection:hover {
 		background-image: url(../images/wallet.jpg);
-            background-size: 250%;
-            background-position-x: 50%;
+            background-size: 246%;
+            background-position-x: 51%;
             background-position-y: 14%;
             transition:all .5s ease-in-out;
     -moz-transition:all .5s ease-in-out;
@@ -220,7 +220,7 @@ float: left;
 
 #fashion-guru:hover {
 		background-image: url(../images/yslbag.jpg);
-            background-size: 133%;
+            background-size: 131%;
             background-position-y: -36%;
     background-position-x: 65%;
             transition:all .5s ease-in-out;
@@ -237,7 +237,7 @@ float: left;
 
 	#amazon-process:hover {
 		background-image: url(../images/amazonboxes.jpg);
-            background-size: 110%;
+            background-size: 106%;
             transition:all .5s ease-in-out;
     -moz-transition:all .5s ease-in-out;
     -o-transition:all .5s ease-in-out;
@@ -251,7 +251,7 @@ float: left;
 
 #donorpath-redesign:hover {
 		background-image: url(../images/redesign.jpg);
-            background-size: 150%;
+            background-size: 146%;
             transition:all .5s ease-in-out;
     -moz-transition:all .5s ease-in-out;
     -o-transition:all .5s ease-in-out;
@@ -265,7 +265,7 @@ float: left;
 
 #weather-or-not:hover {
 		background-image: url(../images/weather.jpg);
-            background-size: 120%;
+            background-size: 115%;
             transition:all .5s ease-in-out;
     -moz-transition:all .5s ease-in-out;
     -o-transition:all .5s ease-in-out;
@@ -273,16 +273,14 @@ float: left;
 	}
 
 #bean {
-		background-image: url(../images/beancup.jpg);
-    background-size:115%;
-    background-position-x: -40px;
-    background-position-y: -20px;
+		background-image: url(../images/newbeancup.jpg);
+    background-size:110%;
+    background-position-y: -70px;
 	}
 
 #bean:hover {
-		background-image: url(../images/beancup.jpg);
-            background-size: 125%;
-    background-position-x: -55px;
+		background-image: url(../images/newbeancup.jpg);
+            background-size: 115%;
             transition:all .5s ease-in-out;
     -moz-transition:all .5s ease-in-out;
     -o-transition:all .5s ease-in-out;
@@ -313,7 +311,7 @@ float: left;
 
 	#fruit-benefits:hover {
 		background-image: url(../images/imac.jpg);
-            background-size: 160%;
+            background-size: 155%;
             transition:all .5s ease-in-out;
     -moz-transition:all .5s ease-in-out;
     -o-transition:all .5s ease-in-out;
@@ -329,9 +327,9 @@ float: left;
 
 	#smoking-kills:hover {
 		background-image: url(../images/magazine.jpg);
-            background-size: 160%;
+            background-size: 155%;
                 background-position-y: -41px;
-        background-position-x: -87px;
+        background-position-x: -75px;
             transition:all .5s ease-in-out;
     -moz-transition:all .5s ease-in-out;
     -o-transition:all .5s ease-in-out;
@@ -346,7 +344,7 @@ float: left;
 
 #print-flyer:hover {
 		background-image: url(../images/box.jpg);
-            background-size: 335%;
+            background-size: 327%;
             transition:all .5s ease-in-out;
     -moz-transition:all .5s ease-in-out;
     -o-transition:all .5s ease-in-out;
@@ -361,7 +359,7 @@ float: left;
 
 	#retailmenot:hover {
 		background-image: url(../images/mdothomepage.jpg);
-            background-size: 125%;
+            background-size: 121%;
             transition:all .5s ease-in-out;
     -moz-transition:all .5s ease-in-out;
     -o-transition:all .5s ease-in-out;
@@ -377,7 +375,7 @@ float: left;
 
 #wgn:hover {
 		background-image: url(../images/ipad.jpg);
-            background-size: 185%;
+            background-size: 181%;
     background-position-x: 48%;
             transition:all .5s ease-in-out;
     -moz-transition:all .5s ease-in-out;
