@@ -708,12 +708,10 @@ header {
     -moz-transition:opacity .25s ease-in-out;
     -webkit-transition:opacity .25s ease-in-out;
     opacity:0;
-    background:#f5f5f5;
-    background:rgba(0,0,0,0)
 }
     
 .grid-list:hover .overlay {
-    opacity:1
+    opacity:0
 }
 
 .overlay a {
