@@ -132,7 +132,7 @@ float: left;
 			background-color: #000000;
 		}
 		.work-tile-img .tile-description {
-			opacity: .70;
+			opacity: 0;
 		}
 
 .title-tile-background {
