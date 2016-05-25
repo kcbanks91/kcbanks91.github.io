@@ -351,6 +351,16 @@ float: left;
     -o-transition:all .5s ease-in-out;
     -webkit-transition:all .5s ease-in-out;
 	}
+	
+		#old-registration {
+		background-image: url(../images/oldDP.jpg);
+        background-size: 100%;
+	}
+	
+			#new-registration {
+		background-image: url(../images/newDP.jpg);
+        background-size: 100%;
+	}
 
 
 	#retailmenot {
