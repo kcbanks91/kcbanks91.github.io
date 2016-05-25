@@ -1,3 +1,4 @@
+
 	/* remove blue glow */
 button {
     outline: none;
@@ -245,12 +246,12 @@ float: left;
 	}
 
 #donorpath-redesign {
-		background-image: url(../images/redesign.jpg);
+		background-image: url(../images/newdptile.jpg);
     background-size: 140%;
 	}
 
 #donorpath-redesign:hover {
-		background-image: url(../images/redesign.jpg);
+		background-image: url(../images/newdptile.jpg);
             background-size: 146%;
             transition:all .5s ease-in-out;
     -moz-transition:all .5s ease-in-out;
@@ -259,12 +260,12 @@ float: left;
 	}
 
 #weather-or-not {
-		background-image: url(../images/weather.jpg);
+		background-image: url(../images/weathertile.jpg);
     background-size: 110%;
 	}
 
 #weather-or-not:hover {
-		background-image: url(../images/weather.jpg);
+		background-image: url(../images/weathertile.jpg);
             background-size: 115%;
             transition:all .5s ease-in-out;
     -moz-transition:all .5s ease-in-out;
@@ -758,3 +759,5 @@ header {
     clear:both
 }
 }
+Status API Training Shop Blog About
+Â© 2016 GitHub, Inc. Terms Privacy Security Contact Help
